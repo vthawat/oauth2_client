@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Psuoauth2 extends CI_Controller {
+class oauth2 extends CI_Controller {
 /**
-* psu oauth2_client controller for developers startup
+* oauth2_client controller for developers startup
 * author: thawat varachai
 */
 	var $access_token;
@@ -43,7 +43,7 @@ class Psuoauth2 extends CI_Controller {
 	}
 	function setConfig()
 	{
-		$this->config->load('psuoauth2');
+		$this->config->load('oauth2_client');
 		$this->client_id=$this->config->item('client_id');
 		$this->client_secret=$this->config->item('client_secret');
 		$this->authorize_url=$this->config->item('authorize_url');
@@ -56,7 +56,7 @@ class Psuoauth2 extends CI_Controller {
 		
 		$access_token=get_cookie('access_token');
 		if(empty($access_token))  // access_token expired
-			redirect(base_url('psuoauth2'));
+			redirect(base_url('oauth2'));
 
 			$userinfo=$this->userinfo->getOAuthUser($access_token);
 			if($this->userinfo->status_code==200)  // valid access_token
@@ -168,7 +168,7 @@ class Psuoauth2 extends CI_Controller {
 	{
 		$access_token=get_cookie('access_token');
 		if(empty($access_token))  // access_token expired
-			redirect(base_url('psuoauth2'));
+			redirect(base_url('oauth2'));
 			$userinfo=$this->userinfo->SignOut($access_token);
 			if($this->userinfo->status_code==200)  // valid access_token
 				{
