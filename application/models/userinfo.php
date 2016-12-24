@@ -16,7 +16,7 @@ class Userinfo extends CI_Model
 
 	function setConfig()
 	{
-		$this->config->load('psuoauth2');
+		$this->config->load('oauth2_client');
 		$this->client_id=$this->config->item('client_id');
 		$this->ssl_validate=$this->config->item('ssl_validate');
 		$this->endpoint_url=$this->config->item('endpoint_url');

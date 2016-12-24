@@ -67,11 +67,11 @@
 <body>
 
 <div id="container">
-	<h1>Integrate PSU OAuth 2.0 with web apps by CodeIgniter</h1>
+	<h1>Integrate OAuth 2.0 Client with web apps by CodeIgniter</h1>
 
 	<div id="body">
 		<h2>Sample endpoint api Userinfo</h2>
-		<code><a href="<?=base_url('psuoauth2/endpoint')?>">User info</a>
+		<code><a href="<?=base_url('oauth2/endpoint')?>">User info</a>
 		</code>
 	</div>
 

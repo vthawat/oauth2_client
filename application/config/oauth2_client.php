@@ -26,7 +26,7 @@ $config['authorize_url']='https://localhost/authorize';
 
 $config['access_token_url']='https://localhost/authorize/token';
 
-$config['endpoint_url']='https://locahost/resource/';
+$config['endpoint_url']='https://localhost/resource/';
 
 $config['ssl_validate']=FALSE;
 

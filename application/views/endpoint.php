@@ -74,7 +74,7 @@
 		<code>
 		<h3><pre><?php print_r($userinfo)?></pre></h3>
 		</code>
-		<code><a href="<?=base_url()?>">Home</a> | <a href="<?=base_url('psuoauth2/signout')?>">Sign-out</a>
+		<code><a href="<?=base_url()?>">Home</a> | <a href="<?=base_url('oauth2/signout')?>">Sign-out</a>
 		</code>
 	</div>
 

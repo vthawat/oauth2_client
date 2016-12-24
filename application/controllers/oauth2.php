@@ -76,11 +76,10 @@ class oauth2 extends CI_Controller {
 		$params['client_id']=$this->client_id;
 		$params['redirect_uri']=$this->redirect_uri;
 		$params['state']=md5(time());
-		$params['scope']='userinfo';
+		$params['scope']='access,userinfo';
 		$params['response_type']='code';
 		$callback_url=$this->redirect_uri;
 		$client = new GuzzleHttp\Client();
-
   		try{
    				 $response = $client->request( 'POST',$this->authorize_url,['verify' => $this->ssl_validate,'form_params'=>$params]);
 
@@ -93,6 +92,9 @@ class oauth2 extends CI_Controller {
 		    $error=json_decode($responseBodyAsString);
 		    show_error($error->error_description, $response->getStatusCode());
 		  }
+		  
+		  //$response = $client->request( 'GET',$this->authorize_url,['verify' => $this->ssl_validate,'query'=>$params]);
+		  
 
 	}
 
