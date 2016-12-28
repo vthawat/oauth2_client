@@ -22,11 +22,11 @@ $config['client_secret']='demo_secret';
 
 $config['redirect_uri']='oauth2/callback';
 
-$config['authorize_url']='https://localhost/authorize';
+$config['authorize_url']='https://localhost/oauth2_server/authorize';
 
-$config['access_token_url']='https://localhost/authorize/token';
+$config['access_token_url']='https://localhost/oauth2_server/authorize/token';
 
-$config['endpoint_url']='https://localhost/resource/';
+$config['endpoint_url']='https://localhost/oauth2_server/resource/';
 
 $config['ssl_validate']=FALSE;
 
