@@ -445,6 +445,7 @@ if ( ! function_exists('prep_url'))
 {
 	function prep_url($str = '')
 	{
+		$protocol = $_SERVER['REQUEST_SCHEME'] . '://';
 		if ($str == 'http://' OR $str == '')
 		{
 			return '';
@@ -454,7 +455,7 @@ if ( ! function_exists('prep_url'))
 
 		if ( ! $url OR ! isset($url['scheme']))
 		{
-			$str = 'http://'.$str;
+			$str = $protocol.$str;
 		}
 
 		return $str;

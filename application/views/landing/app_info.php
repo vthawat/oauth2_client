@@ -1,0 +1,1 @@
+<div class="navbar-brand app-brand"><a href="<?=base_url()?>"><img src="<?=$app_icon?>"><?=$app_name?></a></div>
