@@ -58,7 +58,7 @@
   |               | sidebar-mini                            |
   |---------------------------------------------------------|
   -->
-  <body class="skin-green sidebar-mini">
+  <body class="skin-green fixed sidebar-mini">
     <div class="wrapper">
 
       <!-- Main Header -->
