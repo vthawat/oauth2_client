@@ -29,6 +29,7 @@ class Users extends CI_Controller {
 
 	function index()
 	{
+		$this->template->write_view('content','guest/content');
 		$this->template->render();
 	}
 }

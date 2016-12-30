@@ -8,10 +8,10 @@
     <title>Error</title>
 
     <!-- Bootstrap core CSS -->
-     <link href="../oauth2_server/uiux/web/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../oauth2_server/uiux/web/vendors/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+     <link href="https://localhost/oauth2_server/uiux/web/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://localhost/oauth2_server/uiux/web/vendors/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Custom styles for this template -->
-   <link href="../oauth2_server/uiux/web/vendors/ecs/css/error-404.css" rel="stylesheet" type="text/css" />
+   <link href="https://localhost/oauth2_server/uiux/web/vendors/ecs/css/error-404.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
 		<div class="container">
