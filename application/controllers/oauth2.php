@@ -13,7 +13,7 @@ class oauth2 extends CI_Controller {
 	var $access_token_url;
 	var $redirect_uri;
 	var $ssl_validate;
-	var $portal_controller='oauth2/endpoint';  // sample to endpoint api
+	var $portal_controller='users';  // sample to endpoint api
 
 	function __construct()
 	{
@@ -93,7 +93,6 @@ class oauth2 extends CI_Controller {
 		    show_error($error->error_description, $response->getStatusCode());
 		  }
 		  
-		  //$response = $client->request( 'GET',$this->authorize_url,['verify' => $this->ssl_validate,'query'=>$params]);
 		  
 
 	}

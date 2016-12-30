@@ -72,7 +72,7 @@ class Userinfo extends CI_Model
 	}
 	function isAuthorized($access_token)
 	{
-		$user_id=$this->getOAuthUser($access_token)->username;
+		$user_id=explode('@',$this->getOAuthUser($access_token)->email)[0];
 		 $client = new GuzzleHttp\Client();
 		
 		 $url    = $this->endpoint_url.'isUserAuthorized?access_token='.$access_token.'&client_id='.$this->client_id.'&user_id='.$user_id;

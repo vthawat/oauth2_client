@@ -96,61 +96,8 @@
      FOOTER 
 ============================== -->
 
-    <section class="copyright t3-footer">
+    <section class="copyright">
     <?=$footer?>
-    <div class="container">
-        <div class="row footer-detail">
-            <div class="col-md-4">
-                <img class="logo" src="">
-                <address>
-                    <h4 class="title">คณะวิศวกรรมศาสตร์<hr class="line"></h4>
-                    <ul class="list-unstyled">
-                        <li>มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่</li>
-                        <li>ตู้ ปณ.2 ถนน กาญจนวณิชย์ ตำบลคอหงส์</li>
-                        <li>อำเภอหาดใหญ่ จังหวัดสงขลา 90112</li>
-                    </ul>
-                </address>
-            </div>
-            <div class="col-md-7 col-md-offset-1">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-6 col-footer phone">
-                        <h5 class="title">Contact</h5>
-                        <ul class="list-unstyled list-footer-vertical">
-                            <li style="overflow: hidden; width:120px;"><i class="fa fa-phone-square"></i>
-                                <ul class="list-unstyled pull-right">
-                                    <li>+66 (0)7428-7111</li>
-                                    <li>+66 (0)7428-7093</li>
-                                    <li>+66 (0)7428-7053</li>
-                                </ul>
-                            </li>
-                            <li><i class="fa fa-envelope-square fa-fw"></i>info@eng.psu.ac.th</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-6 col-footer social">
-                        <h5 class="title">Social Media</h5>
-                        <ul class="list-unstyled list-footer-vertical list-footer-social">
-                            <li>Facebook</li>
-                            <li>Google+</li>
-                            <li>Youtube</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-5 col-sm-4 col-xs-12 col-footer col-other-link">
-                        <h5 class="title">Other Link</h5>
-                        <ul class="list-unstyled list-footer-menu">
-                            <li>ติดต่อเรา</a></li>
-                            <li>คำถามที่พบบ่อย</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-12">
-                <p class="text-center"><br>©<?=date('Y')?> Faculty of Engineering, Prince of Songkla University</p>
-            </div>
-            </div>
-        </div>
-    </div>
     </section>
     <!-- END FOOTER -->
 

@@ -17,7 +17,7 @@
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect.
     -->
-    <link href="<?=prep_url($this->config->item('uiux_path'))?>/web/vendors/AdminLTE/dist/css/skins/skin-red.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?=prep_url($this->config->item('uiux_path'))?>/web/vendors/AdminLTE/dist/css/skins/skin-green.min.css" rel="stylesheet" type="text/css" />
     <link href="<?=prep_url($this->config->item('uiux_path'))?>/web/vendors/bootsnipp/custom.css" rel="stylesheet" type="text/css" />
 	<?=$_styles?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -58,21 +58,21 @@
   |               | sidebar-mini                            |
   |---------------------------------------------------------|
   -->
-  <body class="skin-red sidebar-mini" ng-app="receiptApp">
+  <body class="skin-green sidebar-mini">
     <div class="wrapper">
 
       <!-- Main Header -->
       <header class="main-header">
 	   <div class="hidden-xs">
         <!-- Logo -->
-        <a href="<?=base_url()?>" class="logo navbar-eng" style="height:60px">
+        <a href="<?=base_url()?>" class="logo" style="height:60px">
         	<span class="logo-mini"><?=$app_icon?></span>
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg thai-webfont" style="font-size: 26px"><?=$app_icon?></span>
         </a>
 		</div>
         <!-- Header Navbar -->
-        <nav class="navbar navbar-static-top navbar-eng" role="navigation">
+        <nav class="navbar navbar-static-top" role="navigation">
           <!-- Sidebar toggle button-->
           <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
             <span class="sr-only">Toggle navigation</span><span class="thai-webfont font-medium"><?=$title?></span>

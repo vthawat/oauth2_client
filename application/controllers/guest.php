@@ -10,10 +10,10 @@ class Guest extends CI_Controller {
 		if(!empty($userinfo)) redirect(base_url('oauth2'));
 
 		$data['app_icon']=$this->config->item('uiux_path').'/web/vendors/ecs/images/app_icons/'.$this->config->item('uiux_app_icon');	
-		$data['app_name']='Demo Client Application';
+		$data['app_name']=$this->config->item('uiux_app_name');
 		$data['User_info']=$userinfo;
 
-		$this->template->write('title','Demo Client Application',TRUE);
+		$this->template->write('title',$data['app_name'],TRUE);
 		$this->template->write_view('app_info','landing/app_info',$data);
 		$this->template->write_view('menu','landing/top_menu',$data);
 		$this->template->write_view('footer','landing/footer',$data);

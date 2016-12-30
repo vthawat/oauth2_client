@@ -3,28 +3,22 @@
             <div class="col-md-4">
                 <img style="width:50px;float:left" src="<?=$app_icon?>">
                 <address>
-                    <h4 class="title">Web Applications<hr class="line"></h4>
-                    <ul class="list-unstyled">
-                    	<li>Special Case Student Registration</li>
-                    	<li>ระบบยื่นคำร้องขอลงทะเบียนกรณีพิเศษ</li>
-                        <li>Version dev-0.1</li>
-                    </ul>
+                    <h4 class="title"><?=$app_name?></h4>
                 </address>
             </div>
             <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-6 col-footer phone">
-           	 <h5 class="title">Supported by</h5>
+           	 <img src="<?=base_url('images/eng-logo-nav.png')?>">
            	 <ul class="list-unstyled">
-                    	<li><a href="http://www.academic.eng.psu.ac.th/tabian" target="_blank">หน่วยทะเบียนและพัฒนาวิชาการ</a></li>
-                    	<li>คณะวิศวกรรมศาสตร์</li>
+                    	<li><a href="http://www.eng.psu.ac.th" target="_blank">คณะวิศวกรรมศาสตร์</a></li>
                     	<li>มหาวิทยาลัยสงขลานครินทร์</li>
                     </ul>
             </div>
             <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-6 col-footer phone">
            	 <h5 class="title">Contact</h5>
            	 <ul class="list-unstyled">
-                    	<li>ญดา ประสมพงค์</li>
-                        <li>parisa@eng.psu.ac.th</li>
-                        <li>+66 (0)7428-7410</li>
+                    	<li>Thawat Varachai</li>
+                        <li>thawat.va@psu.ac.th</li>
+                        <li>+66 (0)7428-74094</li>
                     </ul>
             </div>
 

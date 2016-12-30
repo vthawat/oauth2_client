@@ -7,8 +7,8 @@
 					<li class="col-sm-4 col-xs-6">
 						<ul>
 							<li class="dropdown-header text-center">Often App</li>
-							<li class="text-center"><a href="#"><img src="<?=prep_url($this->config->item('uiux_path').'/web/vendors/ecs/images/app_icons/receipt.png')?>" class="app-menu-icon"><address>Receipt System</address></a></li>
-							<li class="text-center"><a href="#"><img src="<?=prep_url($this->config->item('uiux_path').'/web/vendors/ecs/images/app_icons/strategy.png')?>" class="app-menu-icon"><address>Special Case Student Registration</address></a></li>
+							<li class="text-center"><a href="#"><img src="<?=prep_url($this->config->item('uiux_path').'/web/vendors/ecs/images/app_icons/receipt.png')?>" class="app-menu-icon"><address>Receipt</address></a></li>
+							<li class="text-center"><a href="#"><img src="<?=prep_url($this->config->item('uiux_path').'/web/vendors/ecs/images/app_icons/strategy.png')?>" class="app-menu-icon"><address><?=$app_name?></address></a></li>
 							<li class="text-center"><a href="#"><img src="<?=prep_url($this->config->item('uiux_path').'/web/vendors/ecs/images/app_icons/projects.png')?>" class="app-menu-icon"><address>Progress & Tracking</address></a></li>
 							
 						</ul>
@@ -41,7 +41,7 @@
                  <?php if(empty($User_info)):?>
                       <li><a href="<?=base_url('oauth2')?>"><i class="fa fa-fw fa-sign-in"></i>Sign-in</a></li>
                   <?php else:?>
-                  	<li class="dropdown dropdown-large"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-user"></i><?=$User_info->username?></a>
+                  	<li class="dropdown dropdown-large"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-user"></i><?=$User_info->email?></a>
                   		<ul class="dropdown-menu dropdown-menu-large">
 						<li class="col-sm-6 col-xs-6">
 							<ul>
@@ -60,7 +60,7 @@
 								<ul>
 								<li class="divider"></li>
 								<li><a href="#"><i class="fa fa-fw fa-bell-o"></i>Notification <span class="pull-right label label-danger ">10</span></a></li>
-								<li><a href="<?=base_url('psuoauth2/signout')?>"><i class="fa fa-fw fa-sign-out"></i>Sign-Out</a></li>
+								<li><a href="<?=base_url('oauth2/signout')?>"><i class="fa fa-fw fa-sign-out"></i>Sign-Out</a></li>
 								</ul>
 							</li>
                   		</ul>
