@@ -18,7 +18,7 @@
            	 <ul class="list-unstyled">
                     	<li>Thawat Varachai</li>
                         <li>thawat.va@psu.ac.th</li>
-                        <li>+66 (0)7428-74094</li>
+                        <li>+66 (0)7428-7094</li>
                     </ul>
             </div>
 
