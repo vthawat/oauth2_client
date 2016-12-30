@@ -9,8 +9,8 @@
             <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-6 col-footer phone">
            	 <img src="<?=base_url('images/eng-logo-nav.png')?>">
            	 <ul class="list-unstyled">
-                    	<li><a href="http://www.eng.psu.ac.th" target="_blank">คณะวิศวกรรมศาสตร์</a></li>
-                    	<li>มหาวิทยาลัยสงขลานครินทร์</li>
+                    	<li><a href="http://www.eng.psu.ac.th" target="_blank">Faculty of Enginering</a></li>
+                    	<li>Prince of Songkla University</li>
                     </ul>
             </div>
             <div class="col-md-offset-1 col-md-3 col-sm-4 col-xs-6 col-footer phone">
