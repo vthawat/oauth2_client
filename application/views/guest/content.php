@@ -4,7 +4,7 @@
                     <!-- DOWNLOAD NOW SECTION TITLE -->
                     <div class="section_title">
                         <h2><?=$this->config->item('uiux_app_name')?></h2>
-                        <p>OAuth 2.0 client for call OAuth 2.0 sevice providers.</p>
+                        <p>OAuth 2.0 client for call OAuth 2.0 service providers.</p>
                     </div>
                     <div class="carousel slide" data-ride="carousel">
 
